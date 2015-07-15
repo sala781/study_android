@@ -1,0 +1,302 @@
+[MUSIC]
+>> Hi, I'm professor Adam Porter
+of the University of Maryland.
+And it's my pleasure to welcome you to
+Programming Mobile Applications for
+Android handheld systems.
+Now as I'm sure you know,
+handheld systems such as smart phones and
+tablets are becoming extremely popular.
+In fact, some people even say that
+handheld systems are spreading faster than
+any other technology in
+the history of the world.
+For example, did you know that
+each year there are three times as
+many smart phones activated as there
+are children born in the entire world?
+And did you know that today more people
+access the Internet using mobile
+devices than using desktop and
+laptop computers combined?
+Or how about this?
+Did you know that by 2015,
+it's projected that over 500 billion
+mobile apps will have been downloaded?
+Now, I certainly can't predict the future,
+but I think it's safe to say that if
+you want to work in the IT sector
+over the next five to ten years,
+then you probably should know
+something about handheld systems and
+about the apps that run on them.
+And that's where this class comes in.
+In this course, you'll get a broad
+overview of the Android platform,
+one of the two most popular mobile
+platforms in the world today.
+And we'll be focusing primarily on
+the user facing parts of app development,
+the things that users see and
+touch when they're using an app.
+And remember, that this course is just
+one part of a multipart series, or
+specialization called mobile cloud
+computing with Android, or MoCCA,
+for short.
+And while this course focuses on
+the user-facing parts of app development,
+those other courses focus on other behind
+the scenes aspects of app development.
+Things like handling concurrency,
+security, and
+connecting your apps to powerful
+services running remotely in the cloud.
+And of course, I think that each of
+these topics is really important.
+So I encourage you to find our more about
+MoCCA by taking a look at this link.
+Now before I go too much into this course,
+let me take a second to introduce myself.
+Like I said earlier, my name is
+Adam Porter, and I've been a professor or
+computer science at the University
+of Maryland for almost 25 years.
+And I was studying and working in the IT
+field for about ten years before that.
+Today, at the university, and as a private
+consultant, I publish research and
+advise clients on issues related
+to software engineering.
+So broadly speaking, the tools, techniques
+and processes that help people develop
+software that works as it's supposed to
+and is delivered on time and on budget.
+And that work has been funded and
+used by major organizations including IBM,
+AT&T Lucent and the United States Navy,
+just to name a few.
+Now over the past few years,
+I've started spending a lot more
+of my time on handheld systems.
+For instance, in around 2008,
+I worked with a colleague from
+Apple to develop the University of
+Maryland's first course on programming
+handheld systems for the iPhone.
+And then a year or two later,
+as Android matured, I created a similar
+course focused this time on Android.
+In fact, after many iterations and
+modifications,
+that course evolved into the very course
+that you're taking part in today.
+So since I've taught some version
+of this course several times,
+let's talk a little bit more
+about what this course and
+what I think you can do to
+get the most out of it.
+Now first of all, as I said,
+this course is based on
+one that I teach to juniors and
+seniors at the University of Maryland.
+So it's actually very
+important to me that what I do
+in this Coursera course feeds back to
+my on-campus students, and vice versa.
+What I do for my on-campus course should
+improve this Coursera course as well.
+Now in particular, this means
+that this course is not a gentle
+introduction to Android.
+It's not a taste of Android.
+No.
+This is more or
+less the same course I teach
+to my on campus students.
+So, we start at a pretty high level and
+we go kind of fast.
+And I can do that in my on campus
+course because I know our system and
+I know my students.
+And I know that they have a certain
+level of prior knowledge and
+that they know what I expect from them.
+I know, for example,
+that my students know Java very well.
+I know that they also programmed
+a bit in languages besides Java.
+I also know that they have
+taken other background courses.
+And moreover, I know that they
+expect to get their hands dirty.
+The dig for
+information on their own, and I know that
+they'll ask questions when they need to.
+And so, if that doesn't sound right for
+you, you don't know Java,
+you're completely new to programming,
+or you don't have the time or
+the inclination to look up
+information on your own,
+then this might not be the right
+course for you at this time.
+Instead you might consider a course that's
+targeted to a more beginning student,
+such as Lawrence Angrave's Coursera
+course, The creative, Serious and
+Playful Science of Android Apps.
+Or you might want to find a good
+Java tutorial and do that first.
+So, don't be afraid to try one
+of these other things first and
+then come back here when you're ready.
+We're not going anywhere,
+and we'll keep the light on.
+Now, as we go through the course,
+we'll generally stick to
+the following organization.
+Each week, I'll start by posting
+a set of the video lectures.
+And those lectures generally last anywhere
+from an hour to an hour and a half.
+I tend to speak pretty slowly because we
+have many non-native English speakers in
+this class, so
+if you understand English well,
+then feel feel,
+feel free to crank up the playback speed.
+And in each of the video lectures,
+I'll normally start by
+talking about some concept or
+API, and as I go through the lecture,
+I'll demo several sample applications.
+And I'll show screencast where I
+walk through the source code for
+those sample applications
+that I've just demonstrated.
+In fact, all told, I'll show you about
+110 of these sample applications.
+And you can get the source code for
+all of these applications at
+the courses GitHub repository,
+which is available at this link.
+Now each week,
+I'll also assign a graded quiz.
+Quizzes are meant to reinforce
+the lecture material, and
+sometimes to introduce additional
+concepts and resources.
+And you can take these quizzes
+as many times as you like.
+And finally, each week,
+I'll also assign one or more labs.
+In these labs we'll usually ask
+you to implement an application.
+In most cases, the labs will come with
+skeleton code that implements, say,
+75 to 90% of the application.
+So you'll need to read and
+understand that skeleton code and
+then you'll need to fill in
+the parts that are missing.
+So you can think of these
+labs as a kind of drill.
+They focus in on just a few specific
+things, not on everything at once.
+And so to make sure that you do get chance
+to put it all together at the end of
+weeks four and
+eight I will also assign labs in
+which you develop a simple
+app completely from scratch.
+Okay.
+So before I finish up,
+let me say a few words about the specific
+topics we'll cover in this course.
+The material in this course is delivered
+as two four week mini courses,
+called part one and part two.
+Part one introduces the Android
+platform and its development tools.
+And it explains the basic concepts you'll
+need to create simple Android apps.
+Part two, on the other hand, dives into
+the additional services that come into
+play when you're ready to
+create more advanced apps.
+Now as I said,
+each of these parts runs for four weeks.
+In week one,
+we'll talk about the Android platform and
+the Android development environment.
+In week two,
+we'll cover how apps are created and
+we'll go over the activity class, which is
+the primary class that's responsible for
+presenting an apps user interface.
+The following week, I'll introduce intents
+and permissions, which allow one app or
+activity to start up and
+use other apps and activities.
+And I'll also talk about
+the fragment class,
+another class that plays a key role
+in presenting an apps user interface.
+And finally, in week four, I'll go into
+detail about the full range of classes and
+patterns used to create
+sophisticated user interfaces.
+At this point,
+we'll have finished part one, and
+we'll be ready to dive in on part two.
+In week five, we'll discuss a number of
+topics, including user notifications,
+event notification using
+the broadcast receiver class and
+using alarms to invoke code
+at prescheduled times.
+Week six discusses how to handle
+concurrency with threads, Asynctasks and
+handlers, and also discusses how
+to acquire data over the internet.
+Week seven gets into more visual topics,
+including graphics and
+animation, touch processing,
+and multimedia.
+And finally, during week eight,
+we'll focus on
+using the many sensors that now come
+standard on most handheld devices.
+And we'll talk about how to acquire and
+display location information.
+And we'll then close out week eight with
+a lecture on how to manage and store data.
+And one more thing.
+To help make sure that the skills you're
+learning in this course are applicable to
+things you might do in the work world,
+I've partnered up with some
+folks on Amazon App Store team.
+And they have agreed to create some
+guest lectures to share some of
+their hard-won experience about building
+and publishing successful Android apps.
+Amazon will also offer a free e-book
+to all students of this course.
+And I'll have more information
+on this later in the course.
+And also, as a special part of
+this partnership with Amazon,
+the top fifty students from this
+course will be given the option to
+share their resumes directly
+with Amazon recruiters.
+Again, we'll have more on this
+as the course progresses.
+So that's all for
+my overview on the course.
+Please join me next time as I
+introduce you to the Android platform.
+
